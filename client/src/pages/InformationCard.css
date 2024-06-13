@@ -1,0 +1,71 @@
+InformationCard.css .info-card-container {
+  width: 80%;
+  border-radius: 20px;
+}
+
+.card {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #bda4e7;
+  color: #ffffff;
+  border-bottom: none;
+  text-align: start;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  margin-bottom: 2px;
+}
+
+.card-body {
+  padding: 1rem; /* Padding inside the card body */
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px; /* Padding on the right */
+  padding-left: 15px; /* Padding on the left */
+  margin-right: auto; /* Auto margin on the right */
+  margin-left: auto; /* Auto margin on the left */
+}
+
+.flex {
+  display: flex; /* Display as flex */
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: space-between; /* Space between columns */
+}
+
+.profile-img {
+  width: auto;
+  height: 70px;
+  border: 2px solid #e2e8f0;
+  border-radius: 0.25rem;
+}
+
+div.ml-10 p {
+  font-size: 0.875rem;
+  text-align: start;
+}
+
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img.w-18 {
+    margin-left: 5px; /* Reset left margin for logo image */
+  }
+
+  div.ml-10 {
+    margin-left: 0;
+  }
+
+  .info-card-container {
+    width: 600px;
+    justify-content: center;
+    margin-right: 0px;
+  }
+}
