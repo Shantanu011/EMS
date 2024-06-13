@@ -1,0 +1,35 @@
+.notice-card-container {
+  width: 280px;
+}
+
+.custom-card {
+  border-radius: 0.5rem;
+  margin-top: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.notice-card-body {
+  height: 256px;
+}
+
+.notice-header {
+  font-size: 1.6rem;
+  margin-bottom: 0px;
+}
+
+.notice-text {
+  padding: 8px;
+  font-size: 0.95rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.notice-text:hover {
+  background-color: #a5b2c0;
+}
+
+@media (max-width: 768px) {
+  .notice-card-container {
+    width: 200px;
+  }
+}
