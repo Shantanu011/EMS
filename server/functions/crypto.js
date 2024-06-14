@@ -26,7 +26,7 @@ const decrypt = (hash) => {
     return decrpyted.toString();
 };
 
-//uncomment this of a password needs to be hashed
+//uncomment this if a password needs to be hashed
 //pass = {your_password}
 //console.log(encrypt(pass))
 
